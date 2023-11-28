@@ -8,7 +8,7 @@ public class Counting_Occurences {
             if(rem == 3){
                 count++;
             }
-            n = n /10;
+            n = n / 10;
         }
         System.out.println(count);
     }
