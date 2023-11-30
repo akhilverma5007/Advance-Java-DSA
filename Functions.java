@@ -6,6 +6,12 @@ public class Functions {
 
         String output = sum3();
         System.out.println(output);
+
+        int out = sum4(100, 200);
+        System.out.println(out);
+
+
+        System.out.println(greeting("Akhil"));
     }
 
 
@@ -24,6 +30,16 @@ public class Functions {
 
     static String sum3(){
         String name = "Akhil Verma";
+        return name;
+    }
+
+    static int sum4(int one, int two){
+        int total = one + two;
+        return total;
+    }
+
+    static String greeting(String name){
+        name = "Your Name is " + name;
         return name;
     }
 }
