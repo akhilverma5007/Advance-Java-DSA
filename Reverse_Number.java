@@ -7,7 +7,7 @@ public class Reverse_Number {
             int rem = num % 10;
             num = num / 10;
             ans = ans * 10 + rem;
-        }
+        }   
         System.out.println(ans);
     }
 }
