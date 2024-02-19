@@ -7,13 +7,16 @@ public class Program_FibonacciSeries {
         System.out.println("Enter a number to calculate fibonacci series? ");
         Scanner in = new Scanner(System.in);
         int n = in.nextInt();
-        int firstTerm = 0;
-        int secondTerm = 1;
-        for (int i = 1; i <= n; ++i) {
-            System.out.print(firstTerm + " ");
-            int nextTerm = firstTerm + secondTerm;
-            firstTerm = secondTerm;
-            secondTerm = nextTerm;
+        int p = 0;
+        int i = 1;
+        int count = 2;
+        
+        while(count <= n){
+            int tempVar = i;
+            i = i + p;
+            p = tempVar;
+            count++;
         }
+        System.out.println(i);
     }    
 }
