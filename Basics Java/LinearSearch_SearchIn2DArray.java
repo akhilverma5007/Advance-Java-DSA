@@ -1,4 +1,4 @@
-package DSA;
+
 import java.util.Arrays;;
 public class LinearSearch_SearchIn2DArray {
     public static void main(String[] args) {

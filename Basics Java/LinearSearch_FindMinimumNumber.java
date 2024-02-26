@@ -1,4 +1,4 @@
-package DSA;
+
 //Find minimum nuber in the array
 public class LinearSearch_FindMinimumNumber {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package DSA;
+
 
 public class LinearSearch_SearchInStringChar {
     public static void main(String[] args) {
